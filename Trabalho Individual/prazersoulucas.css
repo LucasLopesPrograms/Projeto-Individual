@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+.area{
+    background-image: url(img/lucas.png.png);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    margin: 10% auto;
+
+}
+#titulo{
+    text-align: center;
+    color: aquamarine;
+    font-size: 80px;
+
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-h{
+    background-color: rgb(37, 37, 39);
+
+}
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    margin-left: 6vh;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(24, 139, 233);
+
+}
